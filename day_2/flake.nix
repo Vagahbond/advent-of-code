@@ -13,6 +13,10 @@
         inherit input;
         inherit lib;
       };
+      "2" = (import ./chall_2.nix) {
+        inherit input;
+        inherit lib;
+      };
     };
   };
 }
