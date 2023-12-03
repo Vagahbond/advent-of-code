@@ -8,8 +8,8 @@ This year, the challenge is to do a maximum of different languages. TODO: 4 yet 
 
 - Day 1 : C
 - Day 2 : Nix
-
-Left to go:
+- Day 3 : Pascal
+  Left to go:
 
 - [ ] Rust
 - [ ] C++
@@ -28,5 +28,4 @@ Left to go:
 - [ ] swift
 - [ ] scala
 - [ ] Basic
-- [ ] Pascal
 - [ ] Dart
