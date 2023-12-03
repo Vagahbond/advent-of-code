@@ -1,6 +1,8 @@
 # advent-of-code-2023
 
-My solutions to advent of code 2023 (language varies depending on my mood and the star's alignments)
+My solutions to advent of code 2023
+
+Let's try the polyglot way : one day, one language !
 
 This year, the challenge is to do a maximum of different languages. TODO: 4 yet to find
 
