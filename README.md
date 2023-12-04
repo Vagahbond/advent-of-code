@@ -4,7 +4,9 @@ My solutions to advent of code 2023
 
 Let's try the polyglot way : one day, one language !
 
-This year, the challenge is to do a maximum of different languages. TODO: 4 yet to find
+Could not be done without [learn X in Y minutes](https://learnxinyminutes.com/) !
+
+This year, the challenge is to do a maximum of different languages. TODO: 2 yet to find
 
 - Day 1 : C
 - Day 2 : Nix
@@ -30,3 +32,4 @@ Left to go:
 - [ ] scala
 - [ ] Basic
 - [ ] Dart
+- [ ] Carbon
