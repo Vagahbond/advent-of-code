@@ -9,9 +9,10 @@ This year, the challenge is to do a maximum of different languages. TODO: 4 yet 
 - Day 1 : C
 - Day 2 : Nix
 - Day 3 : Pascal
-  Left to go:
+- Day 4 : Rust
 
-- [ ] Rust
+Left to go:
+
 - [ ] C++
 - [ ] Sand
 - [ ] Go
