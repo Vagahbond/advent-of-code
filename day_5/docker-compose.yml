@@ -1,0 +1,6 @@
+services:
+  swift:
+    image: swift
+    command: tail -F /dev/null
+    volumes:
+      - ./src:/src/app
