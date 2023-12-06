@@ -12,6 +12,8 @@ This year, the challenge is to do a maximum of different languages. TODO: 2 yet 
 - Day 2 : Nix
 - Day 3 : Pascal
 - Day 4 : Rust
+- Day 5 : Swift
+- Day 6 : Shell
 
 Left to go:
 
@@ -28,7 +30,6 @@ Left to go:
 - [ ] shell
 - [ ] ruby
 - [ ] Zig
-- [ ] swift
 - [ ] scala
 - [ ] Basic
 - [ ] Dart
