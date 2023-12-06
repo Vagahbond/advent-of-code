@@ -47,6 +47,3 @@ while i < lines.count  {
 
 print("Seeds: \(seeds)")
 print("Result: \(seeds.min())")
-
-
-
