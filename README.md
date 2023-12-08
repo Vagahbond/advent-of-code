@@ -6,7 +6,9 @@ Let's try the polyglot way : one day, one language !
 
 Could not be done without [learn X in Y minutes](https://learnxinyminutes.com/) !
 
-This year, the challenge is to do a maximum of different languages. TODO: 2 yet to find
+This year, the challenge is to do a maximum of different languages.
+
+PS: Challenge abandonne, it took me way too much time. I am going to use C# for the day 7 and then move back to languages I know and love such as C, C++, or JS/TS
 
 - Day 1 : C
 - Day 2 : Nix
@@ -14,6 +16,7 @@ This year, the challenge is to do a maximum of different languages. TODO: 2 yet 
 - Day 4 : Rust
 - Day 5 : Swift
 - Day 6 : Shell
+- Day 7 : Scala
 
 Left to go:
 
@@ -30,7 +33,6 @@ Left to go:
 - [ ] shell
 - [ ] ruby
 - [ ] Zig
-- [ ] scala
 - [ ] Basic
 - [ ] Dart
 - [ ] Carbon
