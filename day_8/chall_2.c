@@ -174,6 +174,15 @@ int run_root(Node *root, Direction *dirs, int nb_dirs) {
   return counter;
 }
 
+void destroy_parsed(ParsedFile *file) {
+  free(file->nodes);
+  free(file->roots);
+
+  free(file->dirs);
+
+  free(file);
+}
+
 int main() {
 
   ParsedFile *parsed = parse_file("./input.txt");
@@ -212,8 +221,6 @@ int main() {
   }
   printf("%ld", res);
 
-  free(parsed->dirs);
-  free(parsed->nodes);
-  free(parsed);
+  destroy_parsed(parsed);
   return 0;
 }

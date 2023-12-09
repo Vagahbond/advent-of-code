@@ -178,6 +178,14 @@ int run_root(ParsedFile *file) {
   return counter;
 }
 
+void destroy_parsed(ParsedFile *file) {
+  free(file->nodes);
+
+  free(file->dirs);
+
+  free(file);
+}
+
 int main() {
 
   ParsedFile *parsed = parse_file("./input.txt");
