@@ -6,7 +6,13 @@ class Hand(cards: String, bid: Int){
   
   private def addCardToCountMap(c: Map[Char, Int], n: Char): Map[Char, Int] = c ++ Map(n -> (c.get(n).getOrElse(0) + 1))
   def occurences: Map[Char, Int] = mCards.foldLeft(Map.empty[Char, Int]) (addCardToCountMap)
-  def sortedOccurences: List[Int] = occurences.values.toList.sortWith(_ > _) 
+  def sortedOccurences: List[Int] =  {
+    val nb_jokers = occurences.get('J').getOrElse(0)
+    val occurences_wo_j = occurences ++ Map('J' -> 0)
+
+    var res = occurences_wo_j.values.toList.sortWith(_ > _) 
+    res.updated(0, res(0) + nb_jokers)
+  }
 }
 
 object Hand {
@@ -21,7 +27,7 @@ object Hand {
     case 'A' => 13
     case 'K' => 12
     case 'Q' => 11
-    case 'J' => 10
+    case 'J' => 0
     case 'T' => 9
     case n: Char => n.asDigit - 1
   }
