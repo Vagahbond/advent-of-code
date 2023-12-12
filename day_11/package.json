@@ -1,0 +1,13 @@
+{
+  "name": "day_11",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chall_2.js",
+  "scripts": {
+    "start": "node chall_1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
